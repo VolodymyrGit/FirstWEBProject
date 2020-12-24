@@ -1,0 +1,36 @@
+body {
+    background-color: #ADD9E6;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-bottom: 300px;
+}
+
+h2 {
+    color: blue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+td:hover {
+    background-color: coral;
+}
