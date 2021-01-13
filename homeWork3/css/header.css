@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    background-color: #32353E;
+    color: #656F7A;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title{
+    padding: 10px 0px 10px 100px;
+    font-family: 'RobotoMono-VariableFont_wght', sans-serif;
+    font-size: 10px;
+    font-variation-settings: 
+    'wght' 600;
+}
+
+.heading1{
+    color: #A5ADB8;
+    font-size: 35px;
+    font-family: 'RobotoMono-VariableFont_wght', sans-serif;
+}
+
+.firstLetter{
+    color: #AE4B5D;
+}
+
+.titleInput{
+    padding: 10px 100px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.inputStyle{
+    color: #656F7A;
+    height: 30px;
+    border: solid 1px #875F66;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #24272D;
+    text-indent: 10px;
+}
+
+.buttonStyle{
+height: 34px;
+width: 34px;
+border-radius: 5px;
+margin: 5px;
+border: none;
+background-color: #AE4B5D;
+}

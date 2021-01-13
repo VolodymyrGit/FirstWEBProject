@@ -1,0 +1,102 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(nav.css);
+@import url(section.css);
+@import url(main.css);
+@import url(footer.css);
+
+@font-face{
+    font-family: 'RobotoMono-VariableFont_wght';
+    src: url(../fonts/RobotoMono-VariableFont_wght.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #E1E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    max-width: 980px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    font-family: 'RobotoMono-VariableFont_wght', sans-serif;
+    font-size: 10px;
+    font-variation-settings: 
+    'wght' 300;
+    flex: auto;
+    }
+
+.firstLetter{
+    color: #AE4B5D;
+}
+
+.picture{
+    max-width: 100%;
+    height: fit-content;
+
+}
+
+.divHeaderImage{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.headerTextOnImage{
+    position: absolute;
+    padding: 0px 50px;
+    width: 70%;;
+    top: 20px;
+}
+
+.text1{
+    margin: 3px 0px;
+    color: #A5ADB8;
+    font-size: 32px;
+    
+}
+
+.text2{
+    color: #282D33;
+    font-size: 20px;
+    font-variation-settings: 
+    'wght' 700;
+}
+
+.text3{
+    margin: 20px 0px 5px;
+    color: #A5ADB8;
+    font-size: 20px;
+    font-variation-settings: 
+    'wght' 700;
+
+}
+
+.text4{
+    color: #D9DCDF;
+    line-height: 1.5;
+    font-size: 11px;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+a{
+    color:  #95161F;
+}

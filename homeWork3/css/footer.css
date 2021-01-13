@@ -1,0 +1,36 @@
+footer{
+    background-color: #32353E;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #85898F;
+}
+
+footer h3{
+    color: #A5ADB8;
+}
+
+footer > hr{
+    height: 10px;
+    width: 100%;
+    background-color: #AE4B5D;
+    border: 0px;
+}
+
+footer > div > hr{
+    margin: 0px 0px 10px;
+    border: 1px solid;
+    border-top-color: #191C20;
+    border-bottom-color: #40474F;
+    border-left: none;
+    border-right: none;
+}
+
+footer > div {
+    margin: 20px;
+}
+
+footer a{
+    color: #D08B98;
+}
