@@ -3,34 +3,22 @@ header{
     background-color: #32353E;
     color: #656F7A;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.title{
-    padding: 10px 0px 10px 100px;
-    font-family: 'RobotoMono-VariableFont_wght', sans-serif;
+.header-logo{
+    width: 490px;
+    padding: 10px 0;
     font-size: 10px;
-    font-variation-settings: 
-    'wght' 600;
+    font-variation-settings: 'wght' 900;
 }
 
-.heading1{
-    color: #A5ADB8;
-    font-size: 35px;
-    font-family: 'RobotoMono-VariableFont_wght', sans-serif;
-}
-
-.firstLetter{
-    color: #AE4B5D;
-}
-
-.titleInput{
-    padding: 10px 100px 10px;
+.header-input{
+    width: 490px;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
-
 }
 
 .inputStyle{

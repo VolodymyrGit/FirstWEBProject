@@ -2,13 +2,13 @@ main{
 width: 74%;
 display: flex;
 flex-wrap: wrap;
-margin: 20px 10px 20px 0px;
+margin: 20px 10px 20px 0;
 font-size: 13px;
 font-weight: normal;
 }
 
-.textMain{
-
+.text-main{
+margin: 0 0 10px;
 }
 
 .images{
@@ -16,42 +16,48 @@ font-weight: normal;
     flex-wrap: wrap;
 }
 
-.img1{
+.img-1{
     width: fit-content;
-    margin: 0px 15px 10px -5px;
+    margin: 0 15px 10px -5px;
 }
 
-.mainLists{
+.main-lists{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0px 0px 30px;
+    margin: 0 0 30px;
 }
 
-h2{
-    color: #A5ADB8;
-    width: 100%;
-    margin: 0px 0px 20px;
-    font-size: 20px;
-    font-variation-settings: 'wght' 900;
-    font-weight: bolder;
+.main-lists ol{
+    list-style-type: decimal;
+    list-style-position: inside;
 }
 
-h3{
-    color: black;
-    font-size: 17px;
-    font-variation-settings: 'wght' 900;
-    margin: 10px 0px 10px 5px;
+.main-lists h4 > span{
+    background-color: #DEDEDE;
+    border-radius: 3px;
 }
 
-h4{
-    color: #7D838B;
-    font-variation-settings: 'wght' 900;
-    /* font-weight: bolder; */
+.list-1 ul{
+    padding: 0 0 0 20px;
+}
+
+.list-1 li{
+    list-style-type: disc;
+}
+
+.position-inside{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.list-2 .position-inside{
+    margin: 0 0 0 15px;
 }
 
 table{
     border-collapse: collapse;
+    margin: 0 0 40px;
 }
 
 table a{
