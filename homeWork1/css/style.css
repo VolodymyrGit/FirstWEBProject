@@ -1,0 +1,27 @@
+.spacing {
+    letter-spacing: 20px;
+    text-align: center
+}
+
+.alignment {
+    text-align: center
+}
+
+.size {
+    font-size: 20px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.underLine {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}

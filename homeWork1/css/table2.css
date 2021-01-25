@@ -1,0 +1,12 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid black;
+}
+
+colgroup {
+    background-color: yellow;
+}
