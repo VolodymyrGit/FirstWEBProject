@@ -1,0 +1,40 @@
+.red{
+    color: red;
+}
+
+.shadow{
+    text-shadow: 1px 1px black;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    border: 1px solid #000;
+    margin: 20px auto;
+    transition: all 0.7s;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.big-box{
+    width: 200px;
+    height: 2000px;
+    background: linear-gradient(to top, lightcoral, lightgreen);
+}
+
+.title{
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    font-size: 20px;
+}
