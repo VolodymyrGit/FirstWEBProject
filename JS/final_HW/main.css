@@ -1,7 +1,9 @@
+@import url(./reset.css);
+
 .calculator {
     width: 300px;
     height: 500px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: gray;
     border: 10px  double black;
     border-radius: 20px;
@@ -55,7 +57,10 @@
 
 
 .calculationResult {
-    height: 40px;
+    height: 30px;
     width: 250px;
     background-color: white;
+    padding: 10px 0 0 5px;
+    font-size: 20px;
+    font-family: sans-serif;
 }

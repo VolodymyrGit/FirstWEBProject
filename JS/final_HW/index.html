@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,40 @@
     <title>Final_HW</title>
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <div id="calculator">
-        <div id="buttons">
-            <button class="operation">+</button>
-            <button class="operation">-</button>
-            <button class="operation">*</button>
-            <button class="operation">/</button>
+    <div class="calculator">
+
+        <div class="buttons">
+            <button class="operation" onclick="adding()">+</button>
+            <button class="operation" onclick="subtraction()">-</button>
+            <button class="operation" onclick="multiplication()">*</button>
+            <button class="operation" onclick="division()">/</button>
         </div>
+
         <hr>
-        <div id="numbers">
-            <div id="num1">
+
+        <div class="numbers">
+
+            <div class="d-flex">
                 <label for="number1">Number 1</label>
-                <input type="number" id="number1" class="number">
+                <input type="number" value="" id="number1" class="number">
             </div>
-            <div id="num2">
+
+            <div class="d-flex">
                 <label for="number2">Number 2</label>
-                <input type="number" id="number2" class="number">
+                <input type="number" value="" id="number2" class="number">
             </div>
-            <div id="res">
+
+            <div class="d-flex">
                 <p id="result">Result : </p>
-                <span id="calculationResult"></span>
-            </div>
+                <span class="calculationResult"></span>
+            </div>            
         </div>
     </div>
 
 
     <script src="./main.js"></script>
 </body>
+
 </html>

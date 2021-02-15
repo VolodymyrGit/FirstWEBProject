@@ -1,35 +1,26 @@
-let calculator = document.getElementById('calculator');
-calculator.classList.add('calculator');
+let number1 = document.getElementById('number1');
+
+let number2 = document.getElementById('number2');
+
+let calc = document.querySelector('.calculationResult');
+console.log(calc);
 
 
-let buttons = document.getElementById('buttons');
-buttons.classList.add('buttons');
+function adding() {
+    calc.textContent = parseFloat(number1.value) + parseFloat(number2.value);
+}
 
 
-let operation = document.getElementsByClassName('operation');
+function subtraction() {
+    calc.textContent = parseFloat(number1.value) - parseFloat(number2.value);
+}
 
 
-let numbers = document.getElementById('numbers');
-numbers.classList.add('numbers');
+function multiplication() {
+    calc.textContent = parseFloat(number1.value) * parseFloat(number2.value);
+}
 
 
-let num1 = document.getElementById('num1');
-num1.classList.add('num1', 'd-flex');
-
-
-let num2 = document.getElementById('num2');
-num2.classList.add('num2', 'd-flex');
-
-
-let res = document.getElementById('res');
-res.classList.add('res', 'd-flex');
-
-
-let calculationResult = document.getElementById('calculationResult');
-calculationResult.classList.add('calculationResult');
-
-// .container {
-//     width: 90%;
-//     height: 100%;
-//     margin: 0 auto;
-// }
+function division() {
+    calc.textContent = parseFloat(number1.value) / parseFloat(number2.value);
+}
