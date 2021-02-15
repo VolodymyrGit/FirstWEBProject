@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final_HW</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="calculator">
+
+        <div class="buttons">
+            <button class="operation" onclick="adding()">+</button>
+            <button class="operation" onclick="subtraction()">-</button>
+            <button class="operation" onclick="multiplication()">*</button>
+            <button class="operation" onclick="division()">/</button>
+        </div>
+
+        <hr>
+
+        <div class="numbers">
+
+            <div class="d-flex">
+                <label for="number1">Number 1</label>
+                <input type="number" value="" id="number1" class="number">
+            </div>
+
+            <div class="d-flex">
+                <label for="number2">Number 2</label>
+                <input type="number" value="" id="number2" class="number">
+            </div>
+
+            <div class="d-flex">
+                <p id="result">Result : </p>
+                <span class="calculationResult"></span>
+            </div>            
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
